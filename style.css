@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+    font-family: 'Nova Flat', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    text-align: center;
+}
+
+.calculator {
+    width: 400px;
+    border: 2px solid #4CAF50;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cal{
+    font-family: 'Nova Flat', sans-serif;
+    font-size: 25px;
+    color: #e16d58;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 0.5rem;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+input[type="button"] {
+    width: 70px;
+    height: 70px;
+    font-size: 1.2rem;
+    color: #413d3d;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"].dot , .mod , .clear , .delete , .equals ,.plus,.minus,.divide,.multiply{
+    background-color: #ecb9b9;
+}
+
+input[type="button"]:hover {
+    background-color: #eab195;
+}
+
+input[type="button"]:active {
+    background-color: #91ea49;
+}
+
+#eq {
+    width: 140px;
+}
+
+.github-link {
+    margin-top: 2rem;
+    color: white;
+}
+
+.github-link a {
+    color: #55ec08;
+    text-decoration: none;
+}
+
+.github-link a:hover {
+    text-decoration: underline;
+}
